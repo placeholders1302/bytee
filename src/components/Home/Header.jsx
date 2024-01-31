@@ -18,7 +18,7 @@ function Header() {
   return (
     <>
     <div className="navbar">
-      <div className="logo"><img src='https://drive.google.com/file/d/1ezYbpFoRtBz9sMzNwm40rJiWq8_BDzag/view?usp=sharing' alt='no image found'/></div>
+      <div className="logo"><img src='https://pbs.twimg.com/media/GFKcxBraoAAz35M?format=png&name=240x240' alt='no image found'/></div>
       &nbsp;&nbsp;&nbsp;&nbsp;
 
       <div className="categories">   

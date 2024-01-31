@@ -6,6 +6,7 @@ import App from "./components/Home/App"
 import SignInSide from './components/SignIn/SignInSide'
 import SignUp from './components/SignUp/SignUp'
 import Home from './components/Home/Home'
+import Explore from './components/Explore/Explore'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -14,6 +15,7 @@ const router = createBrowserRouter(
       <Route path='login' element={<SignInSide/>}/>
       <Route path='signup' element={<SignUp/>}/>
       <Route path='home' element={<Home/>}/>
+      <Route path='/explore' element={<Explore/>}/>
     </Route>
   )
 )
