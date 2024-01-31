@@ -19,7 +19,7 @@ bytee is a college skill exchange platform designed to facilitate peer-to-peer s
 To get started with bytee, simply clone this repository to your local machine and open the `index.html` file in your web browser. Please note that this is a frontend prototype, and the backend functionality and database integration are not implemented in this version.
 
 ```bash
-git clone https://github.com/yourusername/bytee.git
+git clone [https://github.com/yourusername/bytee.git](https://github.com/placeholders1302/bytee)
 cd bytee
 ```
 
