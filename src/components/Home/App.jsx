@@ -1,5 +1,6 @@
 import './App.css'
 import Header from './Header'
+import { NavLink } from 'react-router-dom'
 
 function App() {
 
@@ -32,7 +33,7 @@ function App() {
     <div className="blur">      
       <div className="island">
         <div className="isleHead"><b>connect with experience</b><br/> discover those who&apos;ve been there, done that.</div>
-        <button className='isleBTN'>explore now!</button>
+        <button className='isleBTN'><NavLink to="/explore" id='exploreBTN' className="inactive" activeclassname="active">explore now!</NavLink></button>
       </div>
     </div>
 

@@ -1,20 +1,14 @@
 import './Explore.css'
+import Header from '../Home/Header'
 
 function Explore () {
   return (
+    <>      
+    <Header/>
     <div className='container'>
+      <div className="bigImage"><div className="image"></div></div>
       <div className='maskgroup'>
         <div className='desktop1'>
-          <img
-            src="/rectangle12384-u7c6-600h.png"
-            alt="Rectangle12384"
-            className='rectangle12'
-          />
-          <img
-            src="/rectangle13451-p4h6.svg"
-            alt="Rectangle13451"
-            className='rectangle1'
-          />
           <span className='text'>
             <span className='text01'>
               <span>
@@ -37,51 +31,27 @@ function Explore () {
             <span>
               <span></span>
               <br></br>
-              <span>we’re unlocking community knowledge in a new way.</span>
+              <span>we&apos;re unlocking community knowledge in a new way.</span>
             </span>
           </span>
+
           <img
-            src="/rectangle23454-n42y.svg"
-            alt="Rectangle23454"
-            className='rectangle2'
-          />
-          <img
-            src="/rectangle33455-lx7m.svg"
-            alt="Rectangle33455"
-            className='rectangle3'
-          />
-          <img
-            src="/rectangle43558-ceyn-200h.png"
-            alt="Rectangle43558"
-            className='rectangle4'
-          />
-          <img
-            src="/rectangle53560-2l1n.svg"
-            alt="Rectangle53560"
-            className='rectangle5'
-          />
-          <img
-            src="/rectangle63561-ovgc-200h.png"
-            alt="Rectangle63561"
-            className='rectangle6'
-          />
-          <img
-            src="/rectangle73563-60sc.svg"
+            src="https://s.udemycdn.com/home/top-categories/lohp-category-music-v2.jpg"
             alt="Rectangle73563"
             className='rectangle7'
           />
           <img
-            src="/rectangle83564-rs2t.svg"
+            src="https://s.udemycdn.com/home/top-categories/lohp-category-development-v2.jpg"
             alt="Rectangle83564"
             className='rectangle8'
           />
           <img
-            src="/rectangle103566-uhg.svg"
+            src="https://s.udemycdn.com/home/top-categories/lohp-category-marketing-v2.jpg"
             alt="Rectangle103566"
             className='rectangle10'
           />
           <img
-            src="https://s.udemycdn.com/home/top-categories/lohp-category-marketing-v2.jpg"
+            src="https://s.udemycdn.com/home/top-categories/lohp-category-development-v2.jpg"
             alt="Rectangle113567"
             className='rectangle11'
           />
@@ -108,13 +78,14 @@ function Explore () {
             </span>
           </span>
           <img
-            src="/rectangle93565-1rlh.svg"
+            src="https://s.udemycdn.com/home/top-categories/lohp-category-photography-v2.jpg"
             alt="Rectangle93565"
             className='rectangle9'
           />
         </div>
       </div>
     </div>
+    </>
   )
 }
 
