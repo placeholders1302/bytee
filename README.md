@@ -11,8 +11,8 @@ bytee is a college skill exchange platform designed to facilitate peer-to-peer s
 ## Technologies Used
 
 - **Frontend:** React.js, JavaScript
-- **Backend:** [Backend technology not implemented in this prototype]
-- **Database:** MySQL
+- **Backend:** node.js, express.js
+- **Database:** MongoDB
 
 ## Getting Started
 
