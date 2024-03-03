@@ -1,10 +1,8 @@
-import './Explore.css'
-import Header from '../Home/Header'
+import './ExplorePage.css'
 
-function Explore () {
+function ExplorePage () {
   return (
-    <>      
-    <Header/>
+    <>
     <div className='container'>
       <div className="bigImage"><div className="image"></div></div>
       <div className='maskgroup'>
@@ -89,4 +87,4 @@ function Explore () {
   )
 }
 
-export default Explore
+export default ExplorePage

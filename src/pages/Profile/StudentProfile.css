@@ -1,0 +1,60 @@
+.studentProfile{
+    height: 100dvh;
+    width: 100%;
+}
+
+.studentProfile img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.profileTop{
+    display: flex;
+    align-items: center;
+    padding: 30px 0 0 100px;
+    height: 40dvh;
+}
+
+.profileBottom{
+    height: 60dvh;
+    background-color: rgb(241, 253, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc{
+    height: 60dvh;
+    width: 60dvw;
+    padding-top: 5dvw;
+    text-align: center;
+}
+
+.info{
+    margin-left: 50px;
+}
+
+.moreInfo{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.tags{
+    display: flex;
+    padding-top: 10px;
+}
+
+.tag{
+    background-color: var(--black);
+    color: var(--white);
+    margin: 0 15px 0 0;
+    border-radius: 20px;
+    padding: 5px 10px;
+    transition: ease-in-out 0.2s 0.1s;
+}
+
+.tag:hover{
+    background-color: var(--white);
+    color: var(--black); 
+}

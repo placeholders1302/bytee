@@ -1,0 +1,16 @@
+.home2{
+    background-color: rgb(241, 253, 247);
+    height: 80dvh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.photoHome2{
+    background: url('https://images.pexels.com/photos/6929185/pexels-photo-6929185.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 75%;
+    border-radius: 15px;
+}
